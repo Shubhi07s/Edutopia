@@ -1,0 +1,54 @@
+<!doctype HTML>
+<html>
+
+<head>
+    <title>SEE THE UNIVERSE WITH AR</title>
+    <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
+    <script src="https://raw.githack.com/jeromeetienne/AR.js/master/aframe/build/aframe-ar.min.js"></script>
+    <script src="https://raw.githack.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
+</head>
+
+<body>
+    <a-scene embedded arjs="detectionMode: mono_and_matrix; matrixCodeType: 3x3;">
+
+        <a-assets>
+            <a-asset-item id="asteroid" src="./assets/models/celestialbodies/asteroid/scene.gltf"></a-asset-item>
+            <a-asset-item id="galaxy" src="./assets/models/celestialbodies/galaxy/scene.gltf"></a-asset-item>
+            <a-asset-item id="moon" src="./assets/models/celestialbodies/moon/scene.gltf"></a-asset-item>
+            <a-asset-item id="solarsystem" src="./assets/models/celestialbodies/solar_system/scene.gltf"></a-asset-item>
+        </a-assets>
+
+        <a-marker type='barcode' value='0'>
+            <a-gltf-model animation-mixer gltf-model="#asteroid" position="0 0 0" scale="0 0 0" rotation="0 0 0">
+            </a-gltf-model>
+            <!-- <a-entity position="0 0 0" scale="0 0 0" rotation="0 0 0" animation-mixer gltf-model="#asteroid">
+            </a-entity> -->
+        </a-marker>
+
+        <a-marker type='barcode' value='1'>
+            <a-gltf-model animation-mixer gltf-model="#galaxy" position="0 0 0" scale="0 0 0" rotation="0 0 0">
+            </a-gltf-model>
+            <!-- <a-entity position="0 0 0" scale="0 0 0" rotation="0 0 0" animation-mixer gltf-model="#galaxy">
+            </a-entity> -->
+        </a-marker>
+
+        <a-marker type='barcode' value='2'>
+            <a-gltf-model animation-mixer gltf-model="#moon" position="0 0 0" scale="0 0 0" rotation="0 0 0">
+            </a-gltf-model>
+            <!-- <a-entity position="0 0 0" scale="0 0 0" rotation="0 0 0" animation-mixer gltf-model="#moon">
+            </a-entity> -->
+        </a-marker>
+
+        <a-marker type='barcode' value='3'>
+            <a-gltf-model animation-mixer gltf-model="#solarsystem" position="0 0 0" scale="0 0 0" rotation="0 0 0">
+            </a-gltf-model>
+            <!-- <a-entity position="0 0 0" scale="0 0 0" rotation="0 0 0" animation-mixer gltf-model="#solarsystem">
+            </a-entity> -->
+        </a-marker>
+
+        <!-- add a simple camera -->
+        <a-entity camera></a-entity>
+    </a-scene>
+</body>
+
+</html>

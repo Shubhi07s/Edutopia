@@ -1,0 +1,11 @@
+Model Information:
+* title:	Neuron
+* source:	https://sketchfab.com/3d-models/neuron-d40557a1e4154267b78117433bc51296
+* author:	Versal (https://sketchfab.com/versal)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Neuron" (https://sketchfab.com/3d-models/neuron-d40557a1e4154267b78117433bc51296) by Versal (https://sketchfab.com/versal) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

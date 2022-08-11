@@ -1,0 +1,11 @@
+Model Information:
+* title:	Benzene
+* source:	https://sketchfab.com/3d-models/benzene-39e13538d4c149c9932360b8b1272572
+* author:	dbr3d (https://sketchfab.com/dbr3d)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Benzene" (https://sketchfab.com/3d-models/benzene-39e13538d4c149c9932360b8b1272572) by dbr3d (https://sketchfab.com/dbr3d) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

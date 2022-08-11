@@ -1,0 +1,54 @@
+<!doctype HTML>
+<html>
+
+<head>
+    <title>LEARN ABOUT BIRDS</title>
+    <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
+    <script src="https://raw.githack.com/jeromeetienne/AR.js/master/aframe/build/aframe-ar.min.js"></script>
+    <script src="https://raw.githack.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
+</head>
+
+<body>
+    <a-scene embedded arjs="detectionMode: mono_and_matrix; matrixCodeType: 3x3;">
+
+        <a-assets>
+            <a-asset-item id="eagle" src="./assets/models/birds/eagle/scene.gltf"></a-asset-item>
+            <a-asset-item id="kingfisher" src="./assets/models/birds/kingfisher/scene.gltf"></a-asset-item>
+            <a-asset-item id="parrot" src="./assets/models/birds/parrot/scene.gltf"></a-asset-item>
+            <a-asset-item id="peacock" src="./assets/models/birds/peacock/scene.gltf"></a-asset-item>
+        </a-assets>
+
+        <a-marker type='barcode' value='0'>
+            <a-gltf-model animation-mixer gltf-model="#eagle" position="0 0 0" scale="0 0 0" rotation="0 0 0">
+            </a-gltf-model>
+            <!-- <a-entity position="0 0 0" scale="0 0 0" rotation="0 0 0" animation-mixer gltf-model="#eagle">
+            </a-entity> -->
+        </a-marker>
+
+        <a-marker type='barcode' value='1'>
+            <a-gltf-model animation-mixer gltf-model="#kingfisher" position="0 0 0" scale="0 0 0" rotation="0 0 0""0 0 0">
+            </a-gltf-model>
+            <!-- <a-entity position="0 0 0" scale="0 0 0" rotation="0 0 0" animation-mixer gltf-model="#kingfisher">
+            </a-entity> -->
+        </a-marker>
+
+        <a-marker type='barcode' value='2'>
+            <a-gltf-model animation-mixer gltf-model="#parrot" position="0 0 0" scale="0 0 0" rotation="0 0 0">
+            </a-gltf-model>
+            <!-- <a-entity position="0 0 0" scale="0 0 0" rotation="0 0 0" animation-mixer gltf-model="#parrot">
+            </a-entity> -->
+        </a-marker>
+
+        <a-marker type='barcode' value='3'>
+            <a-gltf-model animation-mixer gltf-model="#peacock" position="0 0 0" scale="0 0 0" rotation="0 0 0">
+            </a-gltf-model>
+            <!-- <a-entity position="0 0 0" scale="0 0 0" rotation="0 0 0" animation-mixer gltf-model="#peacock">
+            </a-entity> -->
+        </a-marker>
+
+        <!-- add a simple camera -->
+        <a-entity camera></a-entity>
+    </a-scene>
+</body>
+
+</html>
