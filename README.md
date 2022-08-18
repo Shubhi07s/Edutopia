@@ -20,6 +20,8 @@ There are two parts of this application :
 2. Install NodeJS, Nodemon, Express.
 3. Run the command `npm start` in the terminal.
 
+Please make sure you have a printed version of the markers given in the asset folder.
+
 ## PREVIEW
 
 **PART 1 : FRONTEND:**
